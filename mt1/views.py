@@ -3,6 +3,6 @@ from django.http import HttpResponse
 # Create your views here.
 def vistaUno (request):
     html="""
-    <h1>Hola Mundo</h1>
+    <h1>App 1 funcionando correctamente</h1>
     """
     return HttpResponse(html)
